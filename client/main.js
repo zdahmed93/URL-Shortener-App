@@ -4,6 +4,7 @@ import Header from './components/Header';
 import LinkCreate from './components/LinkCreate';
 
 import './main.html'
+import '../imports/collections/links';
 
 const App = () => {
   return (

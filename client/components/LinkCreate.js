@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
+import {Meteor} from 'meteor/meteor';
 
 export default class LinkCreate extends Component {
     handleSubmit = (event) => {
         event.preventDefault();
-        console.log(this.refs.url.value);
+        Meteor.call('links.insert', this.refs.url.value);
+        //console.log(this.refs.url.value);
     }
     render() {
         return (
