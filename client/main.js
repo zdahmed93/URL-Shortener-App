@@ -9,7 +9,7 @@ import '../imports/collections/links';
 
 const App = () => {
   return (
-  <div>
+  <div className="container">
     <Header />
     <LinkCreate />
     <LinksList />

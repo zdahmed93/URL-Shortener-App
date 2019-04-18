@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.1.5",
+    "connect-route": "^0.1.5",
+    "express": "^4.16.4",
     "meteor-node-stubs": "^0.4.1",
     "react": "^16.8.5",
     "react-addons-pure-render-mixin": "^15.6.2",
